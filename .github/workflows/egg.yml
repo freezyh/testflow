@@ -4,5 +4,5 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - run : node --version
-  job2:
+    - run: pwd
+    - run: ls
